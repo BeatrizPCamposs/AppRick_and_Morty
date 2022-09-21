@@ -15,7 +15,7 @@ public class personagem1 extends AppCompatActivity {
     }
 
     public void btnhomemenu(View view) {
-        Intent intent = new Intent(this,home.class);
+        Intent intent = new Intent(this,menu.class);
         startActivity(intent);
     }
 }

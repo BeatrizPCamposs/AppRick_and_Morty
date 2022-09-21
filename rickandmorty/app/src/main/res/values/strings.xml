@@ -1,6 +1,7 @@
 <resources>
     //Nome App
     <string name="app_name">rickandmorty</string>
+
     //Tela de Splash
     <string name="button1">AGITE O CELULAR PARA ENTRAR</string>
     //Tela Home
@@ -9,6 +10,7 @@
     <string name="textnovidade">ﾠﾠﾠﾠNOVIDADES...</string>
     <string name="textquiz">ﾠﾠﾠﾠSerá que você realmente é fã da série "Rick and Morty"?! Teste agora ﾠﾠﾠﾠseus conhecimentos, aperte no botão abaixo e faça agora o teste.</string>
     <string name="btnquiz">INICIAR QUIZ</string>
+
     //Tela do Menu
     <string name="btnhomemenu">HOME</string>
     <string name="btnpershome">PERSONAGENS</string>
@@ -21,10 +23,39 @@
     <string name="apelidopers">APELIDO:</string>
     <string name="sexopers">SEXO:</string>
     <string name="sobrepers">SOBRE:</string>
+
     //Tela do Personagem "Rick Sanchez"
     <string name="nomerick">RICK SANCHEZ</string>
     <string name="apelidorick">Pickle Rick, Rickzinho</string>
     <string name="idaderick">73 anos</string>
     <string name="sexorick">Masculino</string>
     <string name="sobrerick">Rick é um cientista totalmente louco, após desaparecer por 20 anos, retorna para a sua família e começa a sair em diversas aventuras com seu neto, Morty.</string>
+
+    //Tela do personagem "Morty Smith"
+    <string name="nomemorty">MORTY SMITH</string>
+    <string name="apelidomorty">Morty Prime, Mortyeist Morty</string>
+    <string name="idademorty">14 anos</string>
+    <string name="sexomorty">Masculino</string>
+    <string name="sobremorty">Morty é um dos dois personagens protagonias da série. Ele é neto de Rick e muita das vezes é obrigado a participar das suas várias desventuras. Morty frequenta Harry Herpson School junto com sua irmã, Summer.</string>
+
+    //Tela do personagem "Summer Smith"
+    <string name="nomesummer">SUMMER SMITH</string>
+    <string name="apelidosummer">Sum-Sum (de acordo com seu irmão Morty).</string>
+    <string name="idadesummer">17 anos</string>
+    <string name="sexosummer">Feminino</string>
+    <string name="sobresummer">Summer é a filha adolescente de Beth e Jerry. Ela é a irmã mais velha de Morty e a neta de Rick da Dimensão C-137, sendo ela o único membro da família a estar ciente desse fato.</string>
+
+    //Tela do personagem "Jerry Smith"
+    <string name="nomejerry">JERRY SMITH</string>
+    <string name="idadejerry">35 anos</string>
+    <string name="sexojerry">Masculino</string>
+    <string name="sobrejerry">Jerry é casado com Beth, sendo ele o pai de Morty e Summer Smith. Consideram-o como um dos memmbros menos inteligentes da família, retratando em sua pesonalidade ser um perdedor e incompetente, não conseguindo se livrar de nenhum problema sozinho, além de ser desempregado.</string>
+
+    //Tela do personagem "Beth Smith"
+    <string name="nomebeth">BETH SMITH</string>
+    <string name="idadebeth">34 anos</string>
+    <string name="sexobeth">Feminino</string>
+    <string name="sobrebeth">Beth Smith da dimensão C-131 é um dos dois tritagonistas (ao lado de seu marido Jerry Smith) da série. Ela é filha de Rick, e mãe de Summer e do Falecido Morty. Atualmente atua como mãe e filha de Morty e Rick da Dimensão Cronenberged, respectivamente. E trabalha como veterinária no St. Equis Hospital.</string>
+
 </resources>
+
