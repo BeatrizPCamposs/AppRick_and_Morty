@@ -152,6 +152,7 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent">
+
                     <ImageButton
                         android:id="@+id/temp1"
                         android:layout_width="131dp"
@@ -159,6 +160,7 @@
                         android:layout_marginStart="25dp"
                         android:layout_marginTop="16dp"
                         android:background="#00FFFFFF"
+                        android:onClick="btntemp1"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:srcCompat="@drawable/temp1" />
@@ -169,6 +171,7 @@
                         android:layout_height="170dp"
                         android:layout_marginStart="10dp"
                         android:background="#00FFFFFF"
+                        android:onClick="btntemp2"
                         app:layout_constraintStart_toEndOf="@id/temp1"
                         app:layout_constraintTop_toTopOf="@id/temp1"
                         app:srcCompat="@drawable/temp2" />
@@ -179,6 +182,7 @@
                         android:layout_height="170dp"
                         android:layout_marginStart="8dp"
                         android:background="#00FFFFFF"
+                        android:onClick="btntemp3"
                         app:layout_constraintStart_toEndOf="@id/temp2"
                         app:layout_constraintTop_toTopOf="@id/temp2"
                         app:srcCompat="@drawable/temp3" />
@@ -189,24 +193,29 @@
                         android:layout_height="170dp"
                         android:layout_marginStart="10dp"
                         android:background="#00FFFFFF"
+                        android:onClick="btntemp4"
                         app:layout_constraintStart_toEndOf="@id/temp3"
                         app:layout_constraintTop_toTopOf="@id/temp3"
                         app:srcCompat="@drawable/temp4" />
+
                     <ImageButton
                         android:id="@+id/temp5"
                         android:layout_width="131dp"
                         android:layout_height="170dp"
                         android:layout_marginStart="10dp"
                         android:background="#00FFFFFF"
+                        android:onClick="btntemp5"
                         app:layout_constraintStart_toEndOf="@id/temp4"
                         app:layout_constraintTop_toTopOf="@id/temp4"
                         app:srcCompat="@drawable/temp5" />
+
                     <ImageButton
                         android:id="@+id/temp6"
                         android:layout_width="131dp"
                         android:layout_height="170dp"
                         android:layout_marginStart="10dp"
                         android:background="#00FFFFFF"
+                        android:onClick="btntemp6"
                         app:layout_constraintStart_toEndOf="@id/temp5"
                         app:layout_constraintTop_toTopOf="@id/temp5"
                         app:srcCompat="@drawable/temp6" />

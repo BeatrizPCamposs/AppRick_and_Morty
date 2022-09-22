@@ -16,7 +16,7 @@
     <string name="btnpershome">PERSONAGENS</string>
     <string name="btntempmenu">TEMPORADAS</string>
     <string name="btnquizmenu">QUIZ</string>
-    <string name="btnlojamenu">LOJA VIRTUAL</string>
+    <string name="btncontato">CONTATO</string>
     <string name="btnsairmenu">SAIR</string>
     //Text presentes em todas as páginas referente aos personagens
     <string name="idadepers">IDADE:</string>
@@ -57,5 +57,37 @@
     <string name="sexobeth">Feminino</string>
     <string name="sobrebeth">Beth Smith da dimensão C-131 é um dos dois tritagonistas (ao lado de seu marido Jerry Smith) da série. Ela é filha de Rick, e mãe de Summer e do Falecido Morty. Atualmente atua como mãe e filha de Morty e Rick da Dimensão Cronenberged, respectivamente. E trabalha como veterinária no St. Equis Hospital.</string>
 
+    //Tela primeira temporada
+    <string name="temps">ﾠﾠﾠﾠRICK AND MORY</string>
+    <string name="resumo">ﾠﾠApós ficar desaparecido por vinte anos, o cientista maluco Rick Sanchez vai morar na casa de sua filha e acaba envolvendo Morty, seu neto, nas aventuras mais bizzaras.</string>
+    <string name="primeiratemp">ﾠﾠﾠﾠPRIMEIRA TEMPORADA...</string>
+    <string name="resumoprimeira">ﾠﾠA primeira temporada da série Rick and Morty conta com 11 episódios inéditos, ela foi exibida pela primeira vez em 2 de dezembro de 2013, na televisão estado-unidense, Adult Swin.ﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ</string>
+    <string name="trailer1">ﾠﾠﾠﾠTRAILER - PRIMEIRA TEMPORADA...</string>
+    <string name="btnlink">ASSISTIR TEMPORADA COMPLETA</string>
+
+    //Tela segunda temporada
+    <string name="segundatemp">ﾠﾠﾠﾠSEGUNDA TEMPORADA...</string>
+    <string name="resumosegundo">ﾠﾠA segunda tempora da série Rick and Morty possuí 10 episódios. Seu lançamneto ocorreu no dia 26 de Julho de 2015, na televisão estado-unidense, Adult Swin.ﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ</string>
+    <string name="trailer2">ﾠﾠﾠﾠTRAILER - SEGUNDA TEMPORADA...</string>
+
+    //Tela terceira temporada
+    <string name="terceiratemp">ﾠﾠﾠﾠTERCEIRA TEMPORADA...</string>
+    <string name="resumoterceira"></string>
+    <string name="trailer3">ﾠﾠﾠﾠTRAILER - TERCEIRA TEMPORADA...</string>
+
+    //Tela quarta temporada
+    <string name="quartatemp">ﾠﾠﾠﾠQUARTA TEMPORADA...</string>
+    <string name="resumoquarta"></string>
+    <string name="trailer4">ﾠﾠﾠﾠTRAILER - QUARTA TEMPORADA...</string>
+
+    //Tela quinta temporada
+    <string name="quintatemp">ﾠﾠﾠﾠQUINTA TEMPORADA...</string>
+    <string name="resumoquinta"></string>
+    <string name="trailer5">ﾠﾠﾠﾠTRAILER - QUINTA TEMPORADA...</string>
+
+    //Tela sexta temporada
+    <string name="sextatemp">ﾠﾠﾠﾠSEXTA TEMPORADA...</string>
+    <string name="resumosexta"></string>
+    <string name="trailer6">ﾠﾠﾠﾠTRAILER - SEXTA TEMPORADA...</string>
 </resources>
 

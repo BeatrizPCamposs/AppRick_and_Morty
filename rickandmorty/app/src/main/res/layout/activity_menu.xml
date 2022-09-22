@@ -72,14 +72,14 @@
         android:layout_marginEnd="40dp"
         android:backgroundTint="@color/verde"
         android:fontFamily="sans-serif-black"
-        android:text="@string/btnlojamenu"
+        android:text="@string/btncontato"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnquizmenu" />
 
     <Button
-        android:id="@+id/btnsairmenu"
+        android:id="@+id/btnsair"
         android:layout_width="340dp"
         android:layout_height="72dp"
         android:layout_marginStart="25dp"
