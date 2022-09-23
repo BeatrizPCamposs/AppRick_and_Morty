@@ -4,6 +4,7 @@
     package="com.example.rickandmorty">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="true" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
@@ -21,9 +22,6 @@
             android:exported="false" />
         <activity
             android:name=".temporada6"
-            android:exported="false" />
-        <activity
-            android:name=".TEMPORADA5"
             android:exported="false" />
         <activity
             android:name=".temporada4"

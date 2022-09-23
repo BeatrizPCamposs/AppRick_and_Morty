@@ -9,15 +9,15 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btn1"
+        android:id="@+id/btnsplash"
         android:layout_width="361dp"
         android:layout_height="58dp"
         android:layout_marginStart="40dp"
         android:layout_marginEnd="36dp"
         android:layout_marginBottom="88dp"
         android:backgroundTint="@color/verde"
+        android:clickable="false"
         android:fontFamily="sans-serif-black"
-        android:onClick="abrehome"
         android:text="@string/button1"
         android:textColor="@color/white"
         android:textSize="15dp"
@@ -48,10 +48,21 @@
         android:layout_height="360dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="52dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn1"
+        app:layout_constraintBottom_toTopOf="@+id/btnsplash"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/splash" />
+
+    <TextView
+        android:id="@+id/txtresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="353dp"
+        android:text="TextView"
+        android:textColor="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

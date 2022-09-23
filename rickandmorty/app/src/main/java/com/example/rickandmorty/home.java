@@ -17,13 +17,43 @@ import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 
 public class home extends AppCompatActivity {
-
+    FusedLocationProviderClient fusedLocationClient;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        fusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
+        getLocation();
     }
+
+    //Permissão de Localização
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults){
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+
+        if(requestCode == 10){
+            if(grantResults.length == 1 && grantResults[0] == PackageManager.PERMISSION_GRANTED){
+                getLocation();
+            }
+            else{
+                {
+                    Toast.makeText(home.this, "Permissão de Localização negada!",Toast.LENGTH_SHORT).show();
+                }
+            }
+        }
+    }
+    public void getLocation(){
+        if(ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED){
+        }
+        else{
+            requestPermission();
+        }
+    }
+    private void requestPermission(){
+        ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.ACCESS_COARSE_LOCATION}, 10);
+    }
+
 
     //Buttons
     public void btnhome(View view) {

@@ -7,55 +7,79 @@ import androidx.core.app.ActivityCompat;
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 
 public class MainActivity extends AppCompatActivity {
-    FusedLocationProviderClient fusedLocationClient;
+    private double accelerationCurrentValue;
+    private double accelerationPreviousValue;
+
+    TextView txtresult;
+
+    private SensorManager mSensorManager;
+    private Sensor mAccelerometer;
+
+    private SensorEventListener sensorEventListener = new SensorEventListener() {
+        @Override
+        public void onSensorChanged(SensorEvent sensorEvent) {
+            float x = sensorEvent.values[0];
+            float y = sensorEvent.values[1];
+            float z = sensorEvent.values[2];
+
+            accelerationCurrentValue = Math.sqrt(x * x + y * x + z * z);
+            accelerationPreviousValue = Math.abs(accelerationCurrentValue - accelerationPreviousValue);
+
+            double changeInAcceleration = Math.abs(accelerationCurrentValue - accelerationPreviousValue);
+            accelerationPreviousValue = accelerationCurrentValue;
+
+            txtresult.setText("Acelerometro: " + changeInAcceleration);
+
+            if(changeInAcceleration > 9){
+                btnhome();
+            }
+        }
+
+        @Override
+        public void onAccuracyChanged(Sensor sensor, int i) {
+
+        }
+    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        fusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
-        getLocation();
+        txtresult = findViewById(R.id.txtresult);
+
+        mSensorManager = (SensorManager)getSystemService(SENSOR_SERVICE);
+        mAccelerometer = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
     }
-    //Permissão de Localização
+
     @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults){
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-
-        if(requestCode == 10){
-            if(grantResults.length == 1 && grantResults[0] == PackageManager.PERMISSION_GRANTED){
-                getLocation();
-            }
-            else{
-                {
-                    Toast.makeText(MainActivity.this, "Permissão de Localização negada!",Toast.LENGTH_SHORT).show();
-                }
-            }
-        }
-    }
-    public void getLocation(){
-        if(ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED){
-        }
-        else{
-            requestPermission();
-        }
-    }
-    private void requestPermission(){
-        ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.ACCESS_COARSE_LOCATION}, 10);
+    protected void onResume(){
+        super.onResume();;
+        mSensorManager.registerListener(sensorEventListener, mAccelerometer, SensorManager.SENSOR_DELAY_NORMAL);
     }
 
-    //Buttons
-    public void abrehome(View view) {
+    @Override
+    protected void onPause() {
+        mSensorManager.unregisterListener(sensorEventListener);
+        super.onPause();
+    }
+    
+    public void btnhome(){
         Intent intent = new Intent(this,home.class);
         startActivity(intent);
     }
-
 }
