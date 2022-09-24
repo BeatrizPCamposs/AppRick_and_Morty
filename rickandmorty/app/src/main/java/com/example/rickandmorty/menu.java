@@ -33,4 +33,8 @@ public class menu extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void btnlocation(View view) {
+        Intent intent = new Intent(this,localizacao.class);
+        startActivity(intent);
+    }
 }

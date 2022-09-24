@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
             txtresult.setText("Acelerometro: " + changeInAcceleration);
 
-            if(changeInAcceleration > 9){
+            if(changeInAcceleration > 13){
                 btnhome();
             }
         }

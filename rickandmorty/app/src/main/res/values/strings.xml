@@ -10,7 +10,8 @@
     <string name="textnovidade">ﾠﾠﾠﾠNOVIDADES...</string>
     <string name="textquiz">ﾠﾠﾠﾠSerá que você realmente é fã da série "Rick and Morty"?! Teste agora ﾠﾠﾠﾠseus conhecimentos, aperte no botão abaixo e faça agora o teste.</string>
     <string name="btnquiz">LOCALIZAÇÃO</string>
-
+    <string name="pergloc">ONDE SERÁ QUE ACONTECE O DESENVOLVIMENTO DA SÉRIE RICK AND MORTY?</string>
+    <string name="loc">ACESSAR LOCALIZAÇÃO</string>
     //Tela do Menu
     <string name="btnhomemenu">HOME</string>
     <string name="btnpershome">PERSONAGENS</string>
