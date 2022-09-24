@@ -28,4 +28,9 @@ public class menu extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void btncontato(View view) {
+        Intent intent = new Intent(this,contato.class);
+        startActivity(intent);
+    }
+
 }

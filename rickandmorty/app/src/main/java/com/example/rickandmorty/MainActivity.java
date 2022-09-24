@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         mSensorManager.unregisterListener(sensorEventListener);
         super.onPause();
     }
-    
+
     public void btnhome(){
         Intent intent = new Intent(this,home.class);
         startActivity(intent);

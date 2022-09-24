@@ -222,62 +222,6 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </HorizontalScrollView>
 
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:text="@string/textnovidade"
-                android:textSize="16sp" />
-
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:text="@string/textquiz"
-                android:textColor="#8CFFFFFF"
-                android:textSize="14sp" />
-
-            <HorizontalScrollView
-                android:id="@+id/horizontalScrollView"
-                android:layout_width="match_parent"
-                android:layout_height="245dp">
-
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:id="@+id/imageView3"
-                        android:layout_width="385dp"
-                        android:layout_height="235dp"
-                        android:layout_marginStart="23dp"
-                        android:layout_marginTop="10dp"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/quiz" />
-
-                </androidx.constraintlayout.widget.ConstraintLayout>
-            </HorizontalScrollView>
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="365dp"
-                android:layout_height="58dp"
-                android:layout_marginStart="30dp"
-                android:layout_marginTop="0dp"
-                android:layout_marginBottom="1dp"
-                android:backgroundTint="@color/verde"
-                android:fontFamily="sans-serif-black"
-                android:text="@string/btnquiz"
-                android:textColor="@color/white"
-                android:textSize="15dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
-
         </LinearLayout>
     </ScrollView>
 

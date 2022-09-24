@@ -1,6 +1,6 @@
 <resources>
     //Nome App
-    <string name="app_name">rickandmorty</string>
+    <string name="app_name">Rick and Morty</string>
 
     //Tela de Splash
     <string name="button1">AGITE O CELULAR PARA ENTRAR</string>
@@ -9,13 +9,13 @@
     <string name="texttemp">ﾠﾠﾠﾠTEMPORADAS...</string>
     <string name="textnovidade">ﾠﾠﾠﾠNOVIDADES...</string>
     <string name="textquiz">ﾠﾠﾠﾠSerá que você realmente é fã da série "Rick and Morty"?! Teste agora ﾠﾠﾠﾠseus conhecimentos, aperte no botão abaixo e faça agora o teste.</string>
-    <string name="btnquiz">INICIAR QUIZ</string>
+    <string name="btnquiz">LOCALIZAÇÃO</string>
 
     //Tela do Menu
     <string name="btnhomemenu">HOME</string>
     <string name="btnpershome">PERSONAGENS</string>
     <string name="btntempmenu">TEMPORADAS</string>
-    <string name="btnquizmenu">QUIZ</string>
+    <string name="btnquizmenu">LOCALIZAÇÃO</string>
     <string name="btncontato">CONTATO</string>
     <string name="btnsairmenu">SAIR</string>
     //Text presentes em todas as páginas referente aos personagens
@@ -67,27 +67,37 @@
 
     //Tela segunda temporada
     <string name="segundatemp">ﾠﾠﾠﾠSEGUNDA TEMPORADA...</string>
-    <string name="resumosegundo">ﾠﾠA segunda tempora da série Rick and Morty possuí 10 episódios. Seu lançamneto ocorreu no dia 26 de Julho de 2015, na televisão estado-unidense, Adult Swin.ﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ</string>
+    <string name="resumosegundo">ﾠﾠA segunda temporada da série Rick and Morty possuí 10 episódios. Seu lançamento ocorreu no dia 26 de Julho de 2015, na televisão estado-unidense, Adult Swin.ﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ</string>
     <string name="trailer2">ﾠﾠﾠﾠTRAILER - SEGUNDA TEMPORADA...</string>
 
     //Tela terceira temporada
     <string name="terceiratemp">ﾠﾠﾠﾠTERCEIRA TEMPORADA...</string>
-    <string name="resumoterceira"></string>
+    <string name="resumoterceira">ﾠﾠA terceira temporada da série Rick and Morty possuí 10 episódios. Seu lançamento ocorreu no dia 30 de Julho de 2017, na televisão estado-unidense, Adult Swin.ﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ</string>
     <string name="trailer3">ﾠﾠﾠﾠTRAILER - TERCEIRA TEMPORADA...</string>
 
     //Tela quarta temporada
     <string name="quartatemp">ﾠﾠﾠﾠQUARTA TEMPORADA...</string>
-    <string name="resumoquarta"></string>
+    <string name="resumoquarta">ﾠﾠA terceira temporada da série Rick and Morty possuí 10 episódios. Seu lançamento ocorreu no dia 10 de Novembro de 2019, na televisão estado-unidense, Adult Swin.ﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ</string>
     <string name="trailer4">ﾠﾠﾠﾠTRAILER - QUARTA TEMPORADA...</string>
 
     //Tela quinta temporada
     <string name="quintatemp">ﾠﾠﾠﾠQUINTA TEMPORADA...</string>
-    <string name="resumoquinta"></string>
+    <string name="resumoquinta">ﾠﾠA terceira temporada da série Rick and Morty possuí 10 episódios. Seu lançamento ocorreu no dia 05 de setembro de 2021, na televisão estado-unidense, Adult Swin.ﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ</string>
     <string name="trailer5">ﾠﾠﾠﾠTRAILER - QUINTA TEMPORADA...</string>
 
     //Tela sexta temporada
     <string name="sextatemp">ﾠﾠﾠﾠSEXTA TEMPORADA...</string>
-    <string name="resumosexta"></string>
+    <string name="resumosexta">ﾠﾠA terceira temporada da série Rick and Morty possuí até então 03 episódios já estreados. Seu lançamento ocorreu no dia 04 de setembro de 2022, na televisão estado-unidense, Adult Swin.ﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠ</string>
     <string name="trailer6">ﾠﾠﾠﾠTRAILER - SEXTA TEMPORADA...</string>
+
+    //Tela de Contato
+    <string name="cont">ENTRE EM CONTATO CONOSCO:</string>
+    <string name="enderecoemail"></string>
+    <string name="emaildefinid">rickandmorty@gmail.com</string>
+    <string name="email">PARA:</string>
+    <string name="subject">ASSUNTO:</string>
+    <string name="message">MENSAGEM:</string>
+    <string name="send">ENVIAR</string>
+
 </resources>
 
